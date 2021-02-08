@@ -4,7 +4,7 @@ Gra BrickBreaker wykonana przy użyciu JavaFX. Żeby odpalić kod:
 `mvn clean compile javafx:run`
 
 # Jak grać
-Użyj strzałek na klawiaturzę by poruszać paletką. Strzałka w góre zaczyna rozgrywkę. Gdy nie uda ci się odbić piłeczki paletką stracisz życie. Celem gry jest rozbić jak najwięcej cegiełek (zyskać jak najwięcej punktów) nim stracisz wszystkie życia. Po zniszczeniu najniższego rzędu cegiełek, pozostałe cegiełki zostaną wypchnięte w dół, a na szczycie pojawi się rząd nowych cegiełek. Rozgrywka nigdy się nie kończy :wink:.
+Użyj strzałek na klawiaturzę by poruszać paletką. Strzałka w góre zaczyna rozgrywkę. Gdy nie uda ci się odbić piłeczki paletką stracisz życie. Celem gry jest rozbić jak najwięcej cegiełek (zyskać jak najwięcej punktów) nim stracisz wszystkie życia. Po zniszczeniu najniższego rzędu cegiełek, na szczycie pojawi się rząd nowych cegiełek,  a stare zostaną zepchnięte w dół. Rozgrywka nigdy się nie kończy :wink:. Po straceniu wszystkich żyć wyświetla nam się komunikat informujący o końcu gry, po zamknięciu go możemy zacząć od nowa. Jeżeli rozgrywka okazałaby się za trudna, po wciśnięciu klawisza ESC wchodzimy w tryb debugowania - wszystkie obiekty (za wyjątkiem paletki) zastygają w miejscu, a wciśnięcie strzałki w górę "wznawia czas" na jedną klatkę. Po ponownym wciśnięciu ESC wracamy do normalnej rozgrywki.
 
 
 # Ulepszenia
