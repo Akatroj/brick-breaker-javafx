@@ -24,7 +24,7 @@ public enum PowerUpType {
             case INCREASE_SCORE:
                 return Color.ROYALBLUE;
             case INCREASE_PADDLE_SPEED:
-                return Color.TEAL;
+                return Color.ORANGE;
             case EXTRA_LIFE:
                 return Color.LIMEGREEN;
             default:
